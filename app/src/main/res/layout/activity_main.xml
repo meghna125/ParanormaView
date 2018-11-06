@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".MainActivity">
+
+    <com.gjiazhe.panoramaimageview.PanoramaImageView
+        android:id="@+id/panorma_image_view"
+        android:src="@drawable/d3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:piv_enablePanoramaMode="true"
+        app:piv_show_scrollbar="true"
+        app:piv_invertScrollDirection="false"
+
+        />
+
+</RelativeLayout>
+
